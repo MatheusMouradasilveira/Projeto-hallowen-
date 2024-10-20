@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <script src="index.js" defer></script>
+    <title>Cadastro - Site de Vendas</title>
+</head>
+<body background="https://i.pinimg.com/originals/6a/e4/0b/6ae40b17c01bf102aca03dce775c85d6.jpg">
+    <div class="faixa">
+        <img class="imagem-slide" height="380" width="600" src="/images/logo1.png" alt="Slide 3" />
+        <div class="botoes">
+            <button
+              class="botoes"
+              onclick="window.location.href='./about.html'"
+            >
+              Sobre Nós
+            </button>
+            <button
+              class="botoes"
+              onclick="window.location.href='./produtos.html'"
+            >
+              Produtos
+            </button>
+       
+          <button
+          class="botoes"
+          onclick="window.location.href='./index.html'"
+        >
+          Inicial
+        </button>
+        <button
+        class="botoes"
+        onclick="window.location.href='./Login.html'"
+      >
+        Login
+      </button>
+          </div>
+    </div>
+<body>
+
+    <br>
+    <div class="container">
+        <h2>Cadastro</h2>
+        <form>
+            <div class="form-group">
+                <label for="register-nome">Nome:</label>
+                <input type="name" id="register-nome" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="register-email">E-mail:</label>
+                <input type="email" id="register-email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="register-senha">Senha:</label>
+                <input type="password" id="register-senha" name="password" required>
+            </div>
+            <br>
+          <div id="result"></div>
+          <br>
+            <div class="form-group">
+              <button type="button" onclick="register()"> Cadastrar </button>
+              </form>
+              <br>
+          <br>
+          <button onclick="window.location.href='./Login.html'">Já tenho Login</button>
+          </div>
+</body>
+</html>
